@@ -33,6 +33,20 @@ h2 {
     font-size: 58px !important;
 }
 
+.texto1 {
+    height: 200px;
+    background-color: black;
+}
+
+.tituloUno {
+    color: white;
+    display: flex;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    justify-content: center;
+}
+
 .contenedor{
     position: relative;
     display: inline-block;
@@ -237,8 +251,8 @@ h1 {
 }
 
 .aNav:hover {
-    color: tomato !important;
-    background-color: black;
+   color:#2EE59D !important;
+
 }
 
 #aLogo {
@@ -260,7 +274,7 @@ p {
 }
 
 .orientacion-derecha {
-    text-align: right;
+    text-align: left;
 }
 
 .botones-iniciativa {
@@ -277,4 +291,86 @@ p {
 
 input {
     color: white;
+}
+
+
+.texto-encima2{
+    position: absolute;
+    top: 52%;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima2 {
+    position: absolute;
+    top: 58%;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima2 {
+    color: white;
+    text-align: left;
+    font-size: 38px;
+}
+
+.boton2{
+position: absolute;
+width: 250px;
+height: 48px;
+top: 120px;
+background: #FFFFFF;
+border-radius: 44px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+}
+
+.boton2:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.texto-encima3{
+    position: absolute;
+    top: 77%;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima3 {
+    position: absolute;
+    top: 83%;
+    left: 60px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.parrafo-encima3 {
+    color: white;
+    text-align: left;
+    font-size: 38px;
+}
+
+.boton3{
+position: absolute;
+width: 250px;
+height: 48px;
+top: 120px;
+background: #FFFFFF;
+border-radius: 44px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+}
+
+.boton3:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.textosMuseos1 {
+    position: absolute;
+    top: 5%;
 }
